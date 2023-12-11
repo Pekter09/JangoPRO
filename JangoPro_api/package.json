@@ -1,0 +1,36 @@
+{
+  "name": "jango-pro-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/senac-projetos-de-desenvolvimento/2023-pedro-couto/JangoPro_api.git",
+  "author": "PedroCoutoCampos <pedrocoutocampos@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts ",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "next": "^13.4.16",
+    "prisma": "^5.2.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "@types/bcryptjs": "^2.4.2",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "next": "^13.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stripe": "^12.13.0",
+    "yarn": "^1.22.19"
+  }
+}
